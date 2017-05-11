@@ -29,25 +29,29 @@ span {
 .right-section {
   float:right;
   width: 50%;
+
 }
 
-img{
-  position: absolute;
-  top: 20%;
-  left: 15%;
-}
-h1 {
-  padding: 50px;
+.main h2 {
+  color: #06365f;
 }
 
-main {
+.right-section header {
+  position:relative;
+  margin-bottom: 100px;
+}
+
+.main{
   background-image:url(../images/frame.png);
   background-repeat: no-repeat;
-  z-index: 1000;
-  float: right;
+  position: relative;
 }
 
-.content>a {
+.right-section h1 {
+  float: left;
+}
+
+.right-section >a {
   color: white;
   font-weight: bold;
   background-color: #1c5380;
@@ -55,7 +59,7 @@ main {
   border-radius: 2px;
   padding: 10px;
   float: right;
-  position: fixed;
+
 
 }
 
