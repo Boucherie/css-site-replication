@@ -18,7 +18,7 @@ span {
 
 .container {
   width: 80%;
-  margin: auto;
+  margin: 10% auto;
 }
 
 .left-section{
@@ -38,29 +38,33 @@ span {
 
 .right-section header {
   position:relative;
-  margin-bottom: 100px;
+  margin-bottom: 75px;
 }
 
 .main{
+  padding: 20px;
   background-image:url(../images/frame.png);
   background-repeat: no-repeat;
+  background-size: contain;
   position: relative;
+  width: 100%;
 }
 
-.right-section h1 {
+.logo {
   float: left;
 }
 
-.right-section >a {
+.login {
+  float: right;
+}
+
+.login > a {
   color: white;
   font-weight: bold;
   background-color: #1c5380;
   border: 0.5px solid black;
   border-radius: 2px;
   padding: 10px;
-  float: right;
-
-
 }
 
 .main {
@@ -68,10 +72,22 @@ span {
 }
 
 .footer {
+  clear:both;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  position: absolute;
+  position: relative;
   bottom: 0;
+  font-size: 12px;
+}
+
+.footer a {
+  text-transform: uppercase;
+  color: #06365f;
+  text-decoration:none;
+  font-weight: bold;
+  padding: 2em 0.5em
+
+}
 
 }
